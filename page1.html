@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Installation Automatic1111</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+	<header>
+		<h1>Installation Automatic1111 SD</h1>
+	</header>
+	<main>
+        <button onclick="location.href='index.html'"><- Back</button>
+		<h2>Installation Automatic1111</h2>
+		<p>Step 0: Before installation, be sure you have installed <a href="https://www.python.org/downloads/release/python-3106/" target="_blank">python 3.10.6</a> (<b>Important note: when you installing python check "Add Python to PATH".</b>) and <a href="https://git-scm.com/download/win" target="_blank">git</a>.</p>
+        <p>Okay, after you installed Python and git, you have to free 20-30gb space on your PC for SD.</p>
+        <p>Step 1: Create somewhere folder and name it "<i>Stable_Diffusion</i>".</p>
+        <p>Step 2: Open folder, press right mouse button and click <i>Git Bash Here</i>.</p>
+        <br><div class="image-container"><img src="images/git1.png"></div><br>
+        <p>Step 3: You will see window like cmd, paste this command <i><b>git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git</b></i> and press ENTER.</p>
+        <br><div class="image-container"><img src="images/git2.png"></div><br>
+        <p>When process will successfully done, you can close git and we have folder named <i>stable-diffusion-webui</i>.</p>
+        <p>Congratulation! You have downloaded SD. But before opening it, you need <i>checkpoint</i>.</p>
+        <p>There are some example of checkpoint you can use <a href="https://civitai.com/models/4823/deliberate" target="_blank">deliberate</a> (checkpoint for realistic generation).</p>
+        <p>I will show how to download checkpoint <b>Deliberate</b></p>
+        <p>After downloading Deliberate you have to put it along this path:</p>
+        <br><div class="image-container"><img src="images/checkpoint.png"></div><br>
+        <p>Before start <i><b>webui-user.bat</b></i> press right mouse button and edit. In line named <b>"set COMMANDLINE_ARGS="</b> after equals paste this settings <i><b>--xformers --medvram</b></i></p>
+        <p>After all this difficult steps you can start SD. Go to main folder and start bat file <i><b>webui-user.bat</b></i>.</p>
+        <p>You will see cmd its okay. For the first launch you will downloading some models for python.</p>
+        <br><div class="image-container"><img src="images/SD1.png"></div><br>
+        <p>When you saw this line, thats mean your SD has started and ready to generate. Open browser and paste the link you received in the cmd.</p>
+        <p>And here it is! Our place where we can generate pictures.</p>
+        <br><div class="image-container"><img src="images/SD2.png"></div><br>
+    </main>
+	<footer>
+		<p>Tutorial by Koginur</p>
+	</footer>
+</body>
+</html>
