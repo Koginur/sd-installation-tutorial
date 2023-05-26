@@ -1,1 +1,1 @@
-this is website... duh
+https://koginur.github.io/sd-installation-tutorial
